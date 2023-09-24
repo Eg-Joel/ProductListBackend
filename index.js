@@ -14,7 +14,7 @@ mongoose.connect(
     console.log(err);
 })
 const corsOptions = {
-    origin: 'http://localhost:3000',
+    origin: ['http://localhost:3000', 'https://main.d1ywfzcdpkouey.amplifyapp.com'],
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE', 
    
   };
